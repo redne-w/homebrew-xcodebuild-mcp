@@ -24,17 +24,6 @@ After installation, configure Claude Code to use the server by adding to `~/.cla
 }
 ```
 
-## Updating Formula
-
-After a new release, run:
-
-```bash
-./update_formula.sh 0.2.0
-git add Formula/xcodebuild-mcp.rb
-git commit -m "Update xcodebuild-mcp to 0.2.0"
-git push
-```
-
 ## More Information
 
 See the main repository for documentation: https://github.com/redne-w/xcodebuild-mcp
